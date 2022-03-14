@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright (C) 2019 The Android Open Source Project
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8      http://www.apache.org/licenses/LICENSE-2.0
+9 Unless required by applicable law or agreed to in writing, software
+10 distributed under the License is distributed on an "AS IS" BASIS,
+11 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+12 See the License for the specific language governing permissions and
+13 limitations under the License.
+14-->
+15<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+16    package="com.example.wander"
+17    android:versionCode="1"
+18    android:versionName="1.0" >
+19
+20    <uses-sdk
+21        android:minSdkVersion="19"
+21-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml
+22        android:targetSdkVersion="29" />
+22-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml
+23
+24    <!--
+25         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+26         Google Maps Android API v2, but you must specify either coarse or fine
+27         location permissions for the 'MyLocation' functionality.
+28    -->
+29    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+29-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:23:5-79
+29-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:23:22-76
+30
+31    <!-- Include required permissions for Google Maps API to run. -->
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+33    <uses-permission android:name="android.permission.INTERNET" />
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+34
+35    <uses-feature
+35-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+36        android:glEsVersion="0x00020000"
+36-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+37        android:required="true" />
+37-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+38
+39    <application
+39-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:25:5-54:19
+40        android:allowBackup="true"
+40-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:26:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.1.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\eb556c0bcb1d1ae6fb75f69d72f5f6f7\core-1.1.0\AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:27:9-43
+44        android:label="@string/app_name"
+44-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:28:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:29:9-54
+46        android:supportsRtl="true"
+46-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:30:9-35
+47        android:testOnly="true"
+48        android:theme="@style/AppTheme" >
+48-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:31:9-40
+49
+50        <!--
+51             The API key for Google Maps-based APIs is defined as a string resource.
+52             (See the file "res/values/google_maps_api.xml").
+53             Note that the API key is linked to the encryption key used to sign the APK.
+54             You need a different API key for each encryption key, including the release key that is used to
+55             sign the APK for publishing.
+56             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+57        -->
+58        <meta-data
+58-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:41:9-43:71
+59            android:name="com.google.android.geo.API_KEY"
+59-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:42:13-58
+60            android:value="AIzaSyBC45qIAD3omfvXjj_ooBeSPaY3Bge9PZQ" />
+60-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:43:13-68
+61
+62        <activity
+62-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:45:9-53:20
+63            android:name="com.example.wander.MapsActivity"
+63-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:46:13-59
+64            android:label="@string/title_activity_maps" >
+64-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:47:13-56
+65            <intent-filter>
+65-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:48:13-52:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:49:17-69
+66-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:49:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:51:17-77
+68-->C:\Users\dcmma\Downloads\android-kotlin-geo-maps\app\src\main\AndroidManifest.xml:51:27-74
+69            </intent-filter>
+70        </activity>
+71        <!-- Needs to be explicitly declared on P+ -->
+72        <uses-library
+72-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+73            android:name="org.apache.http.legacy"
+73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+74            android:required="false" />
+74-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\7343a615a121d93a60be0a8cb5ac45a6\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\9a53e48a5d0892f94d9c891e2c37b00b\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\9a53e48a5d0892f94d9c891e2c37b00b\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\9a53e48a5d0892f94d9c891e2c37b00b\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\9a53e48a5d0892f94d9c891e2c37b00b\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\5b094546f13833188c999eb25762c81c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\5b094546f13833188c999eb25762c81c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\dcmma\.gradle\caches\transforms-2\files-2.1\5b094546f13833188c999eb25762c81c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>
